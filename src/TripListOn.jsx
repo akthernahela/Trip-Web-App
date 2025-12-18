@@ -31,8 +31,7 @@ function TripListOn({ onViewTrip, searchTerm = '', handleBackToHome }) {
                 </p>
             ) : (
 
-                <div className="container mt-5">
-
+                <div className="container mt-5 mb-5">
                     <div className="row row-cols-1 row-cols-md-4 g-4">
                         {filteredCurrentTrips.map(trip => (
                             <div key={trip.id} className="col">
@@ -57,7 +56,7 @@ function TripListOn({ onViewTrip, searchTerm = '', handleBackToHome }) {
             )}
 
             {/* Viaggi Programmati */}
-            <h3>Viaggi Programmati</h3>
+            <h3 className='mb-5'>Viaggi Programmati</h3>
             {filteredTrips.length == 0 ? (
                 <p className="text-muted">
                     {searchTerm ? `Nessun viaggio programmato trovato per "${searchTerm}"` : 'Nessun viaggio programmato'}
