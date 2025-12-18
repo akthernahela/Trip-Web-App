@@ -14,14 +14,14 @@ function Header({ onNavigate, onSearch }) {
             <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#1E90FF' }}>
                 <div className="container-fluid">
                     <a className="navbar-brand text-white" href="#" onClick={() => onNavigate('home')}>
-                        <i className="bi bi-bus-front-fill" style={{ fontSize: '1.5rem' }}></i>
+                        <img src="/assets/Favicon_valigia.png" alt="Home" style={{ width: '28px', height: '28px' }} />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                          
+
                             <li className="nav-item">
                                 <a className="nav-link text-white" href="#" onClick={() => onNavigate('home')}>AllTrips</a>
                             </li>
@@ -31,7 +31,7 @@ function Header({ onNavigate, onSearch }) {
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><a className="dropdown-item" href="#">Contact book</a></li>
-                                    <li><a className="dropdown-item" href="#" onClick={() =>onNavigate('navPart')}>Participant</a></li>
+                                    <li><a className="dropdown-item" href="#" onClick={() => onNavigate('navPart')}>Participant</a></li>
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><a className="dropdown-item" href="#" onClick={() => onNavigate('newTrip')}>New Journey</a></li>
                                 </ul>
