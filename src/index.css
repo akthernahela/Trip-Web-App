@@ -1,0 +1,8 @@
+@import url('bootstrap-icons');
+@import url('bootstrap');
+
+
+.card-img-custom {
+  height: 140px; 
+  object-fit: cover;
+}
