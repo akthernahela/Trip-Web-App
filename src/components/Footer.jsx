@@ -28,7 +28,7 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="text-center pt-3 border-top border-secondary">
+                <div className="text-center pt-3 border-top">
                     <p className="mb-0">&copy; 2025 Trip Web App. All rights reserved.</p>
                 </div>
             </div>
