@@ -3,6 +3,16 @@
 
 
 .card-img-custom {
-  height: 140px; 
+  height: 140px;
   object-fit: cover;
+}
+
+.page-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
 }
