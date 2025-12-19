@@ -46,14 +46,14 @@ function NavPart() {
                                         placeholder="Cerca partecipante..."
                                         aria-label="Search"
                                     />
-                                    <button className="btn btn-outline-dark" onClick={handleSearch}>Cerca</button>
+                                    <button className="btn btn-outline-primary" onClick={handleSearch}>Cerca</button>
                                 </div>
                             </div>
 
                             {/* dettagli del partecipante */}
                             {searchedParticipant ? (
                                 <div className="container m-3">
-                                    <div className="alert alert-success">
+                                    <div className="alert alert-primary">
                                         <h5>Dettagli partecipante trovato:</h5>
                                         <p><strong>Nome:</strong> {searchedParticipant.name}</p>
                                         <p><strong>Email:</strong> {searchedParticipant.email}</p>
