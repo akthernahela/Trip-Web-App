@@ -33,7 +33,7 @@ function NewTrip() {
 
     return (
         <div className='page-container'>
-            <div className="container mt-4">
+            <div className="container mt-4 shadow-lg p-5">
                 <h3 className="mb-4">
                     <i className="bi bi-plus-circle me-2"></i>
                     Aggiungi Nuovo Viaggio

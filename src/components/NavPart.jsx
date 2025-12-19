@@ -23,9 +23,9 @@ function NavPart() {
 
     return (
         <>
-            <div className='page-container'>
-                <div className='container mt-5'>
-                    <div className="card text-center">
+            <div className='page-container container'>
+                <div className='mt-5'>
+                    <div className="card text-center shadow-lg">
                         <div className="card-header">
                             <ul className="nav nav-tabs card-header-tabs">
                                 <li className="nav-item">

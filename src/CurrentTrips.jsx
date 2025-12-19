@@ -2,8 +2,8 @@ export const currentTrips = [
     {
         id: 1,
         destination: 'Parigi',
-        startDate: '2026-05-10',
-        endDate: '2026-05-20',
+        startDate: '2025-05-10',
+        endDate: '2025-05-20',
         image: '/assets/paris.jpg',
         participants: [
             { id: 1, name: 'Luca Bianchi', email: 'luca.bianchi@email.com', phone: '+39 320 1111111', fiscalCode: 'BNCLCU90A01F205X' },
@@ -13,8 +13,8 @@ export const currentTrips = [
     {
         id: 2,
         destination: 'New York',
-        startDate: '2026-01-15',
-        endDate: '2026-01-22',
+        startDate: '2025-01-15',
+        endDate: '2025-01-22',
         image: '/assets/newyork.webp',
         participants: [
             { id: 3, name: 'Marco Ferrari', email: 'marco.ferrari@email.com', phone: '+39 340 3333333', fiscalCode: 'FRRMRC88H15H501Y' },
@@ -25,8 +25,8 @@ export const currentTrips = [
     {
         id: 3,
         destination: 'Londra',
-        startDate: '2026-02-12',
-        endDate: '2026-02-19',
+        startDate: '2025-02-12',
+        endDate: '2025-02-19',
         image: '/assets/londra.jpg',
         participants: [
             { id: 6, name: 'Francesca Ricci', email: 'francesca.ricci@email.com', phone: '+39 333 6666666', fiscalCode: 'RCCFNC93D52H501X' },
@@ -36,8 +36,8 @@ export const currentTrips = [
     {
         id: 4,
         destination: 'Roma',
-        startDate: '2026-03-14',
-        endDate: '2026-03-21',
+        startDate: '2025-03-14',
+        endDate: '2025-03-21',
         image: '/assets/roma.jpg',
         participants: [
             { id: 8, name: 'Martina Colombo', email: 'martina.colombo@email.com', phone: '+39 342 8888888', fiscalCode: 'CLMMTN94L47H501Y' },

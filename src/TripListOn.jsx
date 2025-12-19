@@ -36,7 +36,7 @@ function TripListOn({ onViewTrip, searchTerm = '', handleBackToHome }) {
                         <div className="row row-cols-1 row-cols-md-4 g-4">
                             {filteredCurrentTrips.map(trip => (
                                 <div key={trip.id} className="col">
-                                    <div className="card">
+                                    <div className="card shadow-lg">
                                         <img src={trip.image} className="card-img-top card-img-custom" alt={trip.destination} />
                                         <div className="card-body">
                                             <h5 className="card-title">{trip.destination}</h5>
